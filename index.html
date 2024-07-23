@@ -12,34 +12,32 @@
       href="./assets/images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Frontend Mentor | Recipe page</title>
   </head>
   <body>
     <head>
-      <div class="item-image"></div>
+      <div class="img-container">
+        <div class="img"></div>
+      </div>
     </head>
 
     <main>
       <div class="item-name">
-        <h1>
-          Simple Omelette
-          <p style="margin-top: -15px">Recipe</p>
-        </h1>
+        <h1>Simple Omelette Recipe</h1>
       </div>
 
       <div class="item-clue">
-        <article>
-          <h4>
-            An easy and quick dish, perfect for any meal. This classic omelette
-            combines beaten eggs cooked to perfection, optionally filled with
-            your choice of cheese, vegetables, or meats.
-          </h4>
-        </article>
+        <h3>
+          An easy and quick dish, perfect for any meal. This classic omelette
+          combines beaten eggs cooked to perfection, optionally filled with your
+          choice of cheese, vegetables, or meats.
+        </h3>
       </div>
 
       <section class="preparation-time">
         <article>
-          <h4><b>Preparation time</b></h4>
+          <h2><b>Preparation time</b></h2>
 
           <div class="time">
             <li><b>Total:</b> Approximately 10 minutes</li>
@@ -48,25 +46,29 @@
           </div>
         </article>
       </section>
+      <!-- ingredients  -->
       <section class="ingredients-container">
         <article>
-          <h4><b>Ingredients</b></h4>
+          <h2><b>Ingredients</b></h2>
 
           <div class="ingredients">
-            <li>2-3 large eggs</li>
-            <li>Salt, to taste</li>
-            <li>Pepper, to taste</li>
-            <li>1 tablespoon of butter or oil</li>
-            <li>
-              Optional fillings: cheese, diced vegetables, cooked meats, herbs
-            </li>
+            <li></li>
+            2-3 large eggs
+            <li></li>
+            Salt, to taste
+            <li></li>
+            Pepper, to taste
+            <li></li>
+            1 tablespoon of butter or oil
+            <li></li>
+            Optional fillings: cheese, diced vegetables, cooked meats, herbs
           </div>
         </article>
       </section>
-
+      <!-- instruction  -->
       <section class="instruction">
         <article>
-          <h4><b>Instructions</b></h4>
+          <h2>Instructions</h2>
 
           <div class="list-of-inst">
             <li></li>
@@ -111,15 +113,34 @@
           </div>
         </article>
       </section>
-      Nutrition The table below shows nutritional values per serving without the
-      additional fillings. Calories 277kcal Carbs 0g Protein 20g Fat 22g
+      <!-- nutrition -->
+      <section class="nutrition">
+        <h2>Nutrition</h2>
+        <div class="nutrition-contents">
+          The table below shows nutritional values per serving without the
+          additional fillings.
+          <div class="nutri">
+            <p>Calories</p>
+            <b>277kcal </b>
+
+            <p>Carbs</p>
+            <b>0g</b>
+
+            <p>Protein</p>
+            <b>20g </b>
+
+            <p>Fat</p>
+            <b>22g</b>
+          </div>
+        </div>
+      </section>
     </main>
 
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
+      >. Coded by <a href="#">snowgunna</a>.
     </div>
   </body>
 </html>
